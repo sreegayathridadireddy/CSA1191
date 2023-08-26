@@ -1,0 +1,130 @@
+
+import java.util.*;
+
+
+/**
+ * Class Admin
+ */
+public class Admin {
+
+  //
+  // Fields
+  //
+
+  private void id;
+  private void name;
+  
+  //
+  // Constructors
+  //
+  public Admin () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of id
+   * @param newVar the new value of id
+   */
+  private void setId (void newVar) {
+    id = newVar;
+  }
+
+  /**
+   * Get the value of id
+   * @return the value of id
+   */
+  private void getId () {
+    return id;
+  }
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  private void setName (void newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  private void getName () {
+    return name;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void issue_pdicy()
+  {
+  }
+
+
+  /**
+   */
+  public void abort_pdicy()
+  {
+  }
+
+
+  /**
+   */
+  public void view_payment()
+  {
+  }
+
+
+  /**
+   */
+  public void searchpdicy()
+  {
+  }
+
+
+  /**
+   */
+  public void verify_member()
+  {
+  }
+
+
+  /**
+   */
+  public void paybills()
+  {
+  }
+
+
+  /**
+   */
+  public void add_newpdicies()
+  {
+  }
+
+
+  /**
+   */
+  public void issueDS()
+  {
+  }
+
+
+  /**
+   */
+  public void Update_rules()
+  {
+  }
+
+
+}
