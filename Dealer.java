@@ -88,21 +88,21 @@ public class Central_System {
 
 
 /**
- * Class Customer
+ * Class Dealer
  */
-public class Customer {
+public class Dealer {
 
   //
   // Fields
   //
 
   private void name;
-  private void purchase_product;
+  private void availability;
   
   //
   // Constructors
   //
-  public Customer () { };
+  public Dealer () { };
   
   //
   // Methods
@@ -130,19 +130,19 @@ public class Customer {
   }
 
   /**
-   * Set the value of purchase_product
-   * @param newVar the new value of purchase_product
+   * Set the value of availability
+   * @param newVar the new value of availability
    */
-  private void setPurchase_product (void newVar) {
-    purchase_product = newVar;
+  private void setAvailability (void newVar) {
+    availability = newVar;
   }
 
   /**
-   * Get the value of purchase_product
-   * @return the value of purchase_product
+   * Get the value of availability
+   * @return the value of availability
    */
-  private void getPurchase_product () {
-    return purchase_product;
+  private void getAvailability () {
+    return availability;
   }
 
   //
@@ -158,14 +158,14 @@ public class Customer {
 
   /**
    */
-  public void feedback()
+  public void delivery()
   {
   }
 
 
   /**
    */
-  public void customer()
+  public void dealer()
   {
   }
 
